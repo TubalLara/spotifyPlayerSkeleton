@@ -4,8 +4,28 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 </head>
 <body>
+<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel"></h4>
+	      </div>
+	      <div class="modal-body">
+	        
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>	        
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<div>
 	<div class="widget">
 		<div class="header">
 		<!-- Try adding/removing these classes: -->
@@ -16,10 +36,10 @@
 
 		<div class="metadata">
 		  <p class="title" id="song_title">Hunger of The Pine</p>
-		  <p class="author" id="song_author">alt-J</p>
+		  <p class="author" id="song_author"></p>
 
 		  <div class="seekbar">
-		    <progress value="5" max="30"></progress>
+		    <progress value="" max="30"></progress>
 		  </div>		  
 		</div>		
 		</div>
